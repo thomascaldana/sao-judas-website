@@ -1,0 +1,180 @@
+{
+  "paroquia": {
+    "nome": "Paróquia São Judas Tadeu",
+    "padre": "Padre Wellington",
+    "whatsapp": "5511999999999",
+    "endereco": "Rua São Judas Tadeu, 100 - Centro",
+    "telefone": "(11) 3333-4444"
+  },
+  "comunidades": [
+    {
+      "id": 1,
+      "nome": "São Judas Tadeu",
+      "foto": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=200&h=200&fit=crop",
+      "endereco": "Rua São Judas Tadeu, 100 - Centro",
+      "missas": [
+        { "dia": "Domingo", "horario": "08:00 e 19:00" },
+        { "dia": "Quarta-feira", "horario": "19:30" },
+        { "dia": "Sexta-feira", "horario": "19:30" }
+      ],
+      "descricao": "Sede da paróquia e comunidade principal. Igreja Matriz com capacidade para 500 fiéis.",
+      "padroeiro": "São Judas Tadeu",
+      "diaDoPadroeiro": "28 de Outubro",
+      "contato": "(11) 3333-4444"
+    },
+    {
+      "id": 2,
+      "nome": "Nossa Senhora Aparecida",
+      "foto": "https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?w=200&h=200&fit=crop",
+      "endereco": "Rua das Flores, 250 - Jardim Esperança",
+      "missas": [
+        { "dia": "Domingo", "horario": "10:00" },
+        { "dia": "Sábado", "horario": "19:00" }
+      ],
+      "descricao": "Comunidade dedicada à padroeira do Brasil, com forte devoção mariana.",
+      "padroeiro": "Nossa Senhora Aparecida",
+      "diaDoPadroeiro": "12 de Outubro",
+      "contato": "(11) 3333-5555"
+    },
+    {
+      "id": 3,
+      "nome": "Santo Antônio",
+      "foto": "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=200&h=200&fit=crop",
+      "endereco": "Av. Brasil, 780 - Vila Nova",
+      "missas": [
+        { "dia": "Domingo", "horario": "09:00" },
+        { "dia": "Quinta-feira", "horario": "19:30" }
+      ],
+      "descricao": "Comunidade acolhedora no coração da Vila Nova, com diversos grupos pastorais.",
+      "padroeiro": "Santo Antônio de Pádua",
+      "diaDoPadroeiro": "13 de Junho",
+      "contato": "(11) 3333-6666"
+    },
+    {
+      "id": 4,
+      "nome": "São José Operário",
+      "foto": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=200&h=200&fit=crop",
+      "endereco": "Rua dos Trabalhadores, 45 - Parque Industrial",
+      "missas": [
+        { "dia": "Domingo", "horario": "07:30 e 18:00" },
+        { "dia": "Terça-feira", "horario": "19:00" }
+      ],
+      "descricao": "Comunidade voltada para os trabalhadores da região, com forte pastoral social.",
+      "padroeiro": "São José Operário",
+      "diaDoPadroeiro": "1º de Maio",
+      "contato": "(11) 3333-7777"
+    },
+    {
+      "id": 5,
+      "nome": "Santa Terezinha",
+      "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+      "endereco": "Rua das Rosas, 320 - Jardim Santa Tereza",
+      "missas": [
+        { "dia": "Domingo", "horario": "10:30" },
+        { "dia": "Quarta-feira", "horario": "19:00" }
+      ],
+      "descricao": "Comunidade com bela capela e jardins, conhecida pela pastoral da criança.",
+      "padroeiro": "Santa Terezinha do Menino Jesus",
+      "diaDoPadroeiro": "1º de Outubro",
+      "contato": "(11) 3333-8888"
+    },
+    {
+      "id": 6,
+      "nome": "São Sebastião",
+      "foto": "https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=200&h=200&fit=crop",
+      "endereco": "Rua dos Esportes, 90 - Vila Olímpica",
+      "missas": [
+        { "dia": "Domingo", "horario": "08:30 e 19:00" },
+        { "dia": "Sexta-feira", "horario": "19:30" }
+      ],
+      "descricao": "Comunidade vibrante com grupos de jovens e catequese para todas as idades.",
+      "padroeiro": "São Sebastião",
+      "diaDoPadroeiro": "20 de Janeiro",
+      "contato": "(11) 3333-9999"
+    },
+    {
+      "id": 7,
+      "nome": "Nossa Senhora de Fátima",
+      "foto": "https://images.unsplash.com/photo-1502700807168-484a3e7889d0?w=200&h=200&fit=crop",
+      "endereco": "Av. Portugal, 155 - Jardim Europa",
+      "missas": [
+        { "dia": "Domingo", "horario": "09:30" },
+        { "dia": "Sábado", "horario": "18:00" }
+      ],
+      "descricao": "Comunidade com forte tradição nas devoções marianas e terço comunitário.",
+      "padroeiro": "Nossa Senhora de Fátima",
+      "diaDoPadroeiro": "13 de Maio",
+      "contato": "(11) 3334-1111"
+    },
+    {
+      "id": 8,
+      "nome": "São Francisco de Assis",
+      "foto": "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=200&h=200&fit=crop",
+      "endereco": "Rua da Paz, 200 - Jardim Franciscano",
+      "missas": [
+        { "dia": "Domingo", "horario": "07:00 e 17:00" },
+        { "dia": "Terça-feira", "horario": "19:30" }
+      ],
+      "descricao": "Comunidade ecológica com pastoral da ecologia e cuidado com a criação.",
+      "padroeiro": "São Francisco de Assis",
+      "diaDoPadroeiro": "4 de Outubro",
+      "contato": "(11) 3334-2222"
+    },
+    {
+      "id": 9,
+      "nome": "Santa Rita de Cássia",
+      "foto": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=200&h=200&fit=crop",
+      "endereco": "Rua das Causas Impossíveis, 77 - Jardim Milagre",
+      "missas": [
+        { "dia": "Domingo", "horario": "11:00" },
+        { "dia": "Quinta-feira", "horario": "19:00" }
+      ],
+      "descricao": "Comunidade conhecida pelas novenas e pela devoção a Santa Rita de Cássia.",
+      "padroeiro": "Santa Rita de Cássia",
+      "diaDoPadroeiro": "22 de Maio",
+      "contato": "(11) 3334-3333"
+    },
+    {
+      "id": 10,
+      "nome": "São Pedro",
+      "foto": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=200&h=200&fit=crop",
+      "endereco": "Rua dos Pescadores, 300 - Vila do Lago",
+      "missas": [
+        { "dia": "Domingo", "horario": "08:00 e 18:30" },
+        { "dia": "Quarta-feira", "horario": "19:00" }
+      ],
+      "descricao": "Comunidade próxima ao lago, com pastoral dos pescadores e festa junina tradicional.",
+      "padroeiro": "São Pedro Apóstolo",
+      "diaDoPadroeiro": "29 de Junho",
+      "contato": "(11) 3334-4444"
+    },
+    {
+      "id": 11,
+      "nome": "Sagrado Coração de Jesus",
+      "foto": "https://images.unsplash.com/photo-1533000759938-aa0ba70beceb?w=200&h=200&fit=crop",
+      "endereco": "Rua da Devoção, 500 - Centro Histórico",
+      "missas": [
+        { "dia": "Domingo", "horario": "10:00 e 19:30" },
+        { "dia": "Primeira sexta-feira do mês", "horario": "19:00" }
+      ],
+      "descricao": "Comunidade histórica com adoração ao Santíssimo e apostolado da oração.",
+      "padroeiro": "Sagrado Coração de Jesus",
+      "diaDoPadroeiro": "Sexta-feira após Corpus Christi",
+      "contato": "(11) 3334-5555"
+    },
+    {
+      "id": 12,
+      "nome": "Nossa Senhora do Rosário",
+      "foto": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=200&h=200&fit=crop",
+      "endereco": "Praça do Rosário, 10 - Bairro Alto",
+      "missas": [
+        { "dia": "Domingo", "horario": "09:00 e 17:30" },
+        { "dia": "Sábado", "horario": "19:00" }
+      ],
+      "descricao": "Comunidade mariana com terço diário e grupos de oração do rosário.",
+      "padroeiro": "Nossa Senhora do Rosário",
+      "diaDoPadroeiro": "7 de Outubro",
+      "contato": "(11) 3334-6666"
+    }
+  ]
+}
