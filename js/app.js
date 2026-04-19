@@ -9,8 +9,8 @@
   const searchInput = document.getElementById('searchInput');
   const searchClear = document.getElementById('searchClear');
   const emptyState = document.getElementById('emptyState');
+  const navHorarios = document.getElementById('navHorarios');
   const navComunidades = document.getElementById('navComunidades');
-  const navConfissoes = document.getElementById('navConfissoes');
 
   async function init() {
     try {
@@ -96,19 +96,19 @@
   }
 
   function setupNavigation() {
-    navComunidades.addEventListener('click', function (e) {
+    navHorarios.addEventListener('click', function (e) {
       e.preventDefault();
-      const section = document.querySelector('.section');
+      const section = document.getElementById('horarios');
       if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
       }
     });
 
-    navConfissoes.addEventListener('click', function (e) {
+    navComunidades.addEventListener('click', function (e) {
       e.preventDefault();
-      const section = document.querySelector('.confessions-section');
+      const section = document.getElementById('communityGrid');
       if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
+        section.closest('.section').scrollIntoView({ behavior: 'smooth' });
       }
     });
   }

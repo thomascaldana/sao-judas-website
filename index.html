@@ -29,7 +29,8 @@
           <span class="material-icons-round">church</span>
         </div>
         <h1>Paróquia São Judas Tadeu</h1>
-        <p class="hero-subtitle">Padre Wellington</p>
+        <p class="hero-subtitle">Igreja Matriz</p>
+        <p class="hero-congregation">Religiosos Agostinianos da Assunção</p>
       </div>
     </header>
 
@@ -59,8 +60,85 @@
       </div>
     </section>
 
+    <!-- Mass Schedule Section -->
+    <section class="section schedule-section" id="horarios">
+      <div class="section-header">
+        <h2>Horários das Missas e Atividades</h2>
+      </div>
+
+      <div class="card schedule-card">
+        <div class="schedule-card-header">
+          <span class="material-icons-round schedule-card-icon">event</span>
+          <h3>Missas</h3>
+        </div>
+        <div class="schedule-item">
+          <div class="schedule-day">Domingo</div>
+          <div class="schedule-times">
+            <span class="schedule-time-pill">7h30</span>
+            <span class="schedule-time-pill">18h</span>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="schedule-day">Quinta-feira</div>
+          <div class="schedule-detail">Missa e Adoração ao Santíssimo</div>
+          <div class="schedule-times">
+            <span class="schedule-time-pill">20h</span>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="schedule-day">Todo dia 28</div>
+          <div class="schedule-detail">Se cair no sábado: 19h / domingo: 18h</div>
+          <div class="schedule-times">
+            <span class="schedule-time-pill">20h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card schedule-card">
+        <div class="schedule-card-header">
+          <span class="material-icons-round schedule-card-icon">favorite</span>
+          <h3>Terço</h3>
+        </div>
+        <div class="schedule-item">
+          <div class="schedule-day">Segunda-feira</div>
+          <div class="schedule-detail">Terço das Mulheres</div>
+          <div class="schedule-times">
+            <span class="schedule-time-pill">19h30</span>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="schedule-day">Terça-feira</div>
+          <div class="schedule-detail">Terço dos Homens</div>
+          <div class="schedule-times">
+            <span class="schedule-time-pill">19h30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card schedule-card">
+        <div class="schedule-card-header">
+          <span class="material-icons-round schedule-card-icon">school</span>
+          <h3>Formação</h3>
+        </div>
+        <div class="schedule-item">
+          <div class="schedule-day">Sábado</div>
+          <div class="schedule-detail">Catequese</div>
+          <div class="schedule-times">
+            <span class="schedule-time-pill">8h</span>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="schedule-day">Sábado</div>
+          <div class="schedule-detail">Crisma</div>
+          <div class="schedule-times">
+            <span class="schedule-time-pill">9h30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Confessions Section -->
-    <section class="section confessions-section">
+    <section class="section confessions-section" id="confissoes">
       <div class="card confession-card">
         <div class="confession-icon-wrap">
           <span class="material-icons-round">volunteer_activism</span>
@@ -68,10 +146,10 @@
         <h3>Confissões</h3>
         <p>
           Para agendar sua confissão, entre em contato diretamente com o
-          <strong>Padre Wellington</strong> ou fale com a secretaria paroquial
+          <strong>Padre</strong> ou fale com a secretaria paroquial
           pelo WhatsApp.
         </p>
-        <a href="https://wa.me/5519971146525?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20confiss%C3%A3o." class="btn btn-whatsapp confession-btn" target="_blank" rel="noopener">
+        <a href="https://wa.me/5519971141803?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20confiss%C3%A3o." class="btn btn-whatsapp confession-btn" target="_blank" rel="noopener">
           <span class="material-icons-round">chat</span>
           Agendar pelo WhatsApp
         </a>
@@ -79,28 +157,59 @@
     </section>
 
     <!-- Parish Info -->
-    <section class="section parish-info">
-      <div class="info-row">
-        <span class="material-icons-round">location_on</span>
-        <a href="https://maps.google.com/?q=Rua+Madalena+Barbosa+Ferreira,+345+-+Vila+Lemos,+Campinas+-+SP,+13100-486" target="_blank" rel="noopener">
-          Rua Madalena Barbosa Ferreira, 345 - Vila Lemos, Campinas - SP, 13100-486
+    <section class="section parish-info" id="contato">
+      <div class="section-header">
+        <h2>Informações</h2>
+      </div>
+
+      <div class="card info-card">
+        <div class="info-row">
+          <span class="material-icons-round">location_on</span>
+          <a href="https://maps.google.com/?q=Rua+Madalena+Barbosa+Ferreira,+345+-+Vila+Lemos,+Campinas+-+SP,+13100-486" target="_blank" rel="noopener">
+            Rua Madalena Barbosa Ferreira, 345 - Vila Lemos, Campinas - SP, 13100-486
+          </a>
+        </div>
+        <div class="info-row">
+          <span class="material-icons-round">call</span>
+          <a href="tel:+551932554799">(19) 3255-4799</a>
+        </div>
+        <div class="info-row info-row-whatsapp">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="#25D366" class="info-whatsapp-icon">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          <a href="https://wa.me/5519971141803" target="_blank" rel="noopener">(19) 97114-1803</a>
+        </div>
+        <div class="info-row">
+          <span class="material-icons-round">email</span>
+          <a href="mailto:paroquia.sjt@uol.com.br">paroquia.sjt@uol.com.br</a>
+        </div>
+      </div>
+
+      <div class="card info-card secretary-card">
+        <div class="schedule-card-header">
+          <span class="material-icons-round schedule-card-icon">badge</span>
+          <h3>Atendimento da Secretaria</h3>
+        </div>
+        <div class="secretary-row">
+          <span class="material-icons-round">calendar_today</span>
+          <span>Segunda a quinta-feira: <strong>8h às 12h</strong> | <strong>14h às 16h</strong></span>
+        </div>
+        <div class="secretary-row">
+          <span class="material-icons-round">calendar_today</span>
+          <span>Sexta e sábado: <strong>8h às 12h</strong></span>
+        </div>
+      </div>
+
+      <div class="card info-card padre-card">
+        <div class="schedule-card-header">
+          <span class="material-icons-round schedule-card-icon">person</span>
+          <h3>Atendimento com o Padre</h3>
+        </div>
+        <p class="padre-info">Para agendar atendimento com o Padre, entre em contato pelo WhatsApp ou telefone.</p>
+        <a href="https://wa.me/5519971141803?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento%20com%20o%20Padre." class="btn btn-whatsapp padre-btn" target="_blank" rel="noopener">
+          <span class="material-icons-round">chat</span>
+          Agendar pelo WhatsApp
         </a>
-      </div>
-      <div class="info-row">
-        <span class="material-icons-round">call</span>
-        <a href="tel:+551932554799">(19) 3255-4799</a>
-      </div>
-      <div class="info-row">
-        <span class="material-icons-round">phone_android</span>
-        <a href="tel:+5519971146525">(19) 97114-6525</a>
-      </div>
-      <div class="info-row">
-        <span class="material-icons-round">email</span>
-        <a href="mailto:paroquia.sjt@uol.com.br">paroquia.sjt@uol.com.br</a>
-      </div>
-      <div class="info-row">
-        <span class="material-icons-round">schedule</span>
-        <span>Secretaria: Seg-Qui 08h-12h / 14h-17h | Sex-Sáb 08h-12h</span>
       </div>
     </section>
 
@@ -109,7 +218,7 @@
   </div>
 
   <!-- Floating WhatsApp Button -->
-  <a href="https://wa.me/5519971146525?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20par%C3%B3quia." class="fab-whatsapp" id="fabWhatsapp" target="_blank" rel="noopener" aria-label="Contato WhatsApp">
+  <a href="https://wa.me/5519971141803?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20par%C3%B3quia." class="fab-whatsapp" id="fabWhatsapp" target="_blank" rel="noopener" aria-label="Contato WhatsApp">
     <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
     </svg>
@@ -121,15 +230,15 @@
       <span class="material-icons-round">home</span>
       <span class="nav-label">Início</span>
     </a>
+    <a href="#horarios" class="nav-item" id="navHorarios">
+      <span class="material-icons-round">schedule</span>
+      <span class="nav-label">Horários</span>
+    </a>
     <a href="#comunidades" class="nav-item" id="navComunidades">
       <span class="material-icons-round">groups</span>
       <span class="nav-label">Comunidades</span>
     </a>
-    <a href="#confissoes" class="nav-item" id="navConfissoes">
-      <span class="material-icons-round">favorite</span>
-      <span class="nav-label">Confissões</span>
-    </a>
-    <a href="https://wa.me/5519971146525" class="nav-item" target="_blank" rel="noopener">
+    <a href="https://wa.me/5519971141803" class="nav-item" target="_blank" rel="noopener">
       <span class="material-icons-round">chat</span>
       <span class="nav-label">Contato</span>
     </a>

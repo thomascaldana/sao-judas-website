@@ -1,26 +1,39 @@
 {
   "paroquia": {
     "nome": "Paróquia São Judas Tadeu",
-    "padre": "Padre Wellington",
-    "whatsapp": "5511999999999",
-    "endereco": "Rua São Judas Tadeu, 100 - Centro",
-    "telefone": "(11) 3333-4444"
+    "congregacao": "Religiosos Agostinianos da Assunção",
+    "whatsapp": "5519971141803",
+    "endereco": "Rua Madalena Barbosa Ferreira, 345 - Vila Lemos, Campinas - SP, 13100-486",
+    "telefone": "(19) 3255-4799",
+    "telefoneWhatsapp": "(19) 97114-1803",
+    "secretaria": {
+      "segQuinta": "8h às 12h | 14h às 16h",
+      "sexSabado": "8h às 12h"
+    }
   },
   "comunidades": [
     {
       "id": 1,
       "nome": "São Judas Tadeu",
+      "isMatriz": true,
       "foto": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=200&h=200&fit=crop",
-      "endereco": "Rua São Judas Tadeu, 100 - Centro",
+      "endereco": "Rua Madalena Barbosa Ferreira, 345 - Vila Lemos, Campinas - SP, 13100-486",
       "missas": [
-        { "dia": "Domingo", "horario": "08:00 e 19:00" },
-        { "dia": "Quarta-feira", "horario": "19:30" },
-        { "dia": "Sexta-feira", "horario": "19:30" }
+        { "dia": "Domingo", "horario": "7h30 e 18h" },
+        { "dia": "Quinta-feira", "horario": "20h", "detalhe": "Missa e Adoração ao Santíssimo" },
+        { "dia": "Todo dia 28", "horario": "20h", "detalhe": "Se cair no sábado: 19h / domingo: 18h" }
       ],
-      "descricao": "Sede da paróquia e comunidade principal. Igreja Matriz com capacidade para 500 fiéis.",
+      "atividades": [
+        { "nome": "Terço das Mulheres", "dia": "Segunda-feira", "horario": "19h30" },
+        { "nome": "Terço dos Homens", "dia": "Terça-feira", "horario": "19h30" },
+        { "nome": "Catequese", "dia": "Sábado", "horario": "8h" },
+        { "nome": "Crisma", "dia": "Sábado", "horario": "9h30" }
+      ],
+      "descricao": "Sede da paróquia e Igreja Matriz. Religiosos Agostinianos da Assunção.",
       "padroeiro": "São Judas Tadeu",
       "diaDoPadroeiro": "28 de Outubro",
-      "contato": "(11) 3333-4444"
+      "contato": "(19) 3255-4799",
+      "whatsapp": "5519971141803"
     },
     {
       "id": 2,
