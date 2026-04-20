@@ -674,21 +674,39 @@ input {
   gap: 2px;
   padding: 8px 0;
   color: var(--on-surface-tertiary);
-  transition: color var(--transition-fast);
+  transition: color var(--transition-normal);
   -webkit-tap-highlight-color: transparent;
   position: relative;
   text-decoration: none;
 }
 
+.nav-indicator {
+  position: absolute;
+  inset: 6px 12px;
+  background: var(--primary-surface);
+  border-radius: var(--radius-md);
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.nav-item.active .nav-indicator {
+  opacity: 1;
+}
+
 .nav-item .material-icons-round {
   font-size: 24px;
-  transition: transform var(--transition-fast);
+  transition: transform var(--transition-normal), color var(--transition-normal);
+  position: relative;
+  z-index: 1;
 }
 
 .nav-label {
   font-size: 0.625rem;
   font-weight: 600;
   letter-spacing: 0.02em;
+  transition: color var(--transition-normal);
+  position: relative;
+  z-index: 1;
 }
 
 .nav-item.active {

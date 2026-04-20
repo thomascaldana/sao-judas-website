@@ -9,8 +9,7 @@
   const searchInput = document.getElementById('searchInput');
   const searchClear = document.getElementById('searchClear');
   const emptyState = document.getElementById('emptyState');
-  const navHorarios = document.getElementById('navHorarios');
-  const navComunidades = document.getElementById('navComunidades');
+  const navItems = document.querySelectorAll('.bottom-nav .nav-item[data-section]');
 
   async function init() {
     try {
@@ -20,6 +19,7 @@
       renderCommunities(allCommunities);
       setupSearch();
       setupNavigation();
+      setupSectionObserver();
     } catch (err) {
       communityGrid.innerHTML = `
         <div style="grid-column: 1/-1; text-align:center; padding:32px 0; color: var(--on-surface-secondary);">
@@ -96,20 +96,56 @@
   }
 
   function setupNavigation() {
-    navHorarios.addEventListener('click', function (e) {
-      e.preventDefault();
-      const section = document.getElementById('horarios');
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
+    navItems.forEach(function (item) {
+      item.addEventListener('click', function (e) {
+        e.preventDefault();
+        var sectionId = this.getAttribute('data-section');
+        var target = document.getElementById(sectionId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  }
+
+  function setActiveNav(sectionId) {
+    navItems.forEach(function (item) {
+      if (item.getAttribute('data-section') === sectionId) {
+        item.classList.add('active');
+      } else {
+        item.classList.remove('active');
       }
     });
+  }
 
-    navComunidades.addEventListener('click', function (e) {
-      e.preventDefault();
-      const section = document.getElementById('communityGrid');
-      if (section) {
-        section.closest('.section').scrollIntoView({ behavior: 'smooth' });
+  function setupSectionObserver() {
+    var sectionIds = ['hero', 'comunidades', 'horarios', 'contato'];
+    var sectionMap = {};
+    sectionIds.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) sectionMap[id] = el;
+    });
+
+    var visibleSections = {};
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visibleSections[entry.target.id] = entry.isIntersecting;
+      });
+
+      for (var i = 0; i < sectionIds.length; i++) {
+        if (visibleSections[sectionIds[i]]) {
+          setActiveNav(sectionIds[i]);
+          return;
+        }
       }
+    }, {
+      rootMargin: '-20% 0px -60% 0px',
+      threshold: 0
+    });
+
+    sectionIds.forEach(function (id) {
+      if (sectionMap[id]) observer.observe(sectionMap[id]);
     });
   }
 

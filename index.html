@@ -46,7 +46,7 @@
     </section>
 
     <!-- Communities Grid -->
-    <section class="section">
+    <section class="section" id="comunidades">
       <div class="section-header">
         <h2>Nossas Comunidades</h2>
         <span class="badge" id="communityCount">12</span>
@@ -226,20 +226,24 @@
 
   <!-- Bottom Navigation -->
   <nav class="bottom-nav">
-    <a href="index.html" class="nav-item active">
+    <a href="#hero" class="nav-item active" id="navInicio" data-section="hero">
+      <span class="nav-indicator"></span>
       <span class="material-icons-round">home</span>
       <span class="nav-label">Início</span>
     </a>
-    <a href="#horarios" class="nav-item" id="navHorarios">
-      <span class="material-icons-round">schedule</span>
-      <span class="nav-label">Horários</span>
-    </a>
-    <a href="#comunidades" class="nav-item" id="navComunidades">
+    <a href="#comunidades" class="nav-item" id="navComunidades" data-section="comunidades">
+      <span class="nav-indicator"></span>
       <span class="material-icons-round">groups</span>
       <span class="nav-label">Comunidades</span>
     </a>
-    <a href="https://wa.me/5519971141803" class="nav-item" target="_blank" rel="noopener">
-      <span class="material-icons-round">chat</span>
+    <a href="#horarios" class="nav-item" id="navHorarios" data-section="horarios">
+      <span class="nav-indicator"></span>
+      <span class="material-icons-round">schedule</span>
+      <span class="nav-label">Horários</span>
+    </a>
+    <a href="#contato" class="nav-item" id="navContato" data-section="contato">
+      <span class="nav-indicator"></span>
+      <span class="material-icons-round">info</span>
       <span class="nav-label">Contato</span>
     </a>
   </nav>
