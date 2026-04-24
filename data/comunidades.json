@@ -16,7 +16,7 @@
       "id": 1,
       "nome": "São Judas Tadeu",
       "isMatriz": true,
-      "foto": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=200&h=200&fit=crop",
+      "foto": "./assets/foto_sao_judas_tadeu.png",
       "endereco": "Rua Madalena Barbosa Ferreira, 345 - Vila Lemos, Campinas - SP, 13100-486",
       "missas": [
         { "dia": "Domingo", "horario": "7h30 e 18h" },
@@ -38,7 +38,7 @@
     {
       "id": 2,
       "nome": "Nossa Senhora Aparecida",
-      "foto": "https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1745433153563-41d820d51f88?w=200&h=200&fit=crop",
       "endereco": "Rua das Flores, 250 - Jardim Esperança",
       "missas": [
         { "dia": "Domingo", "horario": "10:00" },
@@ -52,7 +52,7 @@
     {
       "id": 3,
       "nome": "Santo Antônio",
-      "foto": "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1744225330545-106e71178ae2?w=200&h=200&fit=crop",
       "endereco": "Av. Brasil, 780 - Vila Nova",
       "missas": [
         { "dia": "Domingo", "horario": "09:00" },
@@ -66,7 +66,7 @@
     {
       "id": 4,
       "nome": "São José Operário",
-      "foto": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1612486524727-82353144eee2?w=200&h=200&fit=crop",
       "endereco": "Rua dos Trabalhadores, 45 - Parque Industrial",
       "missas": [
         { "dia": "Domingo", "horario": "07:30 e 18:00" },
@@ -80,7 +80,7 @@
     {
       "id": 5,
       "nome": "Santa Terezinha",
-      "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1645459540767-c219f2814215?w=200&h=200&fit=crop",
       "endereco": "Rua das Rosas, 320 - Jardim Santa Tereza",
       "missas": [
         { "dia": "Domingo", "horario": "10:30" },
@@ -94,7 +94,7 @@
     {
       "id": 6,
       "nome": "São Sebastião",
-      "foto": "https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1722600522714-c1958279292a?w=200&h=200&fit=crop",
       "endereco": "Rua dos Esportes, 90 - Vila Olímpica",
       "missas": [
         { "dia": "Domingo", "horario": "08:30 e 19:00" },
@@ -108,7 +108,7 @@
     {
       "id": 7,
       "nome": "Nossa Senhora de Fátima",
-      "foto": "https://images.unsplash.com/photo-1502700807168-484a3e7889d0?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1569626919645-78bbaec3f137?w=200&h=200&fit=crop",
       "endereco": "Av. Portugal, 155 - Jardim Europa",
       "missas": [
         { "dia": "Domingo", "horario": "09:30" },
@@ -122,7 +122,7 @@
     {
       "id": 8,
       "nome": "São Francisco de Assis",
-      "foto": "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1712893904276-d4a79c5ca31a?w=200&h=200&fit=crop",
       "endereco": "Rua da Paz, 200 - Jardim Franciscano",
       "missas": [
         { "dia": "Domingo", "horario": "07:00 e 17:00" },
@@ -136,7 +136,7 @@
     {
       "id": 9,
       "nome": "Santa Rita de Cássia",
-      "foto": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1624491989238-421f04e59b5e?w=200&h=200&fit=crop",
       "endereco": "Rua das Causas Impossíveis, 77 - Jardim Milagre",
       "missas": [
         { "dia": "Domingo", "horario": "11:00" },
@@ -150,7 +150,7 @@
     {
       "id": 10,
       "nome": "São Pedro",
-      "foto": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1757918965291-0404583221bf?w=200&h=200&fit=crop",
       "endereco": "Rua dos Pescadores, 300 - Vila do Lago",
       "missas": [
         { "dia": "Domingo", "horario": "08:00 e 18:30" },
@@ -164,7 +164,7 @@
     {
       "id": 11,
       "nome": "Sagrado Coração de Jesus",
-      "foto": "https://images.unsplash.com/photo-1533000759938-aa0ba70beceb?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1687885123899-1a39e12593e2?w=200&h=200&fit=crop",
       "endereco": "Rua da Devoção, 500 - Centro Histórico",
       "missas": [
         { "dia": "Domingo", "horario": "10:00 e 19:30" },
@@ -178,7 +178,7 @@
     {
       "id": 12,
       "nome": "Nossa Senhora do Rosário",
-      "foto": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=200&h=200&fit=crop",
+      "foto": "https://images.unsplash.com/photo-1687459730891-47dfa3217811?w=200&h=200&fit=crop",
       "endereco": "Praça do Rosário, 10 - Bairro Alto",
       "missas": [
         { "dia": "Domingo", "horario": "09:00 e 17:30" },
