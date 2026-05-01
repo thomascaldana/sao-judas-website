@@ -7,6 +7,9 @@
   const loadingState = document.getElementById('loadingState');
   const detailContent = document.getElementById('detailContent');
   const errorState = document.getElementById('errorState');
+  const communityCoverWrap = document.getElementById('communityCoverWrap');
+  const communityCover = document.getElementById('communityCover');
+  const detailHeader = document.getElementById('detailHeader');
   const communityPhoto = document.getElementById('communityPhoto');
   const communityName = document.getElementById('communityName');
   const communityPatron = document.getElementById('communityPatron');
@@ -54,6 +57,17 @@
   function renderCommunity(community, paroquia) {
     document.title = `${community.nome} - ${paroquia.nome}`;
     appBarTitle.textContent = community.nome;
+
+    if (community.capa) {
+      communityCover.src = community.capa;
+      communityCover.alt = `Igreja ${community.nome}`;
+      communityCoverWrap.classList.remove('hidden');
+      detailHeader.classList.add('detail-header-with-cover');
+      communityCover.onerror = function () {
+        communityCoverWrap.classList.add('hidden');
+        detailHeader.classList.remove('detail-header-with-cover');
+      };
+    }
 
     communityPhoto.src = community.foto;
     communityPhoto.alt = community.nome;

@@ -14,9 +14,10 @@
   "comunidades": [
     {
       "id": 1,
-      "nome": "São Judas Tadeu",
+      "nome": "Matriz - São Judas Tadeu",
       "isMatriz": true,
-      "foto": "./assets/foto_sao_judas_tadeu.png",
+      "foto": "./assets/santo_sao_judas_tadeu.png",
+      "capa": "./assets/igreja_sao_judas_tadeu.png",
       "endereco": "Rua Madalena Barbosa Ferreira, 345 - Vila Lemos, Campinas - SP, 13100-486",
       "missas": [
         { "dia": "Domingo", "horario": "7h30 e 18h" },
