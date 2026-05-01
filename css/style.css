@@ -145,6 +145,22 @@ input:-webkit-autofill:focus {
   );
 }
 
+.hero-logo {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  z-index: 2;
+  filter:
+    drop-shadow(0 0 4px rgba(255, 255, 255, 1))
+    drop-shadow(0 0 10px rgba(255, 255, 255, 0.95))
+    drop-shadow(0 0 22px rgba(255, 255, 255, 0.7));
+  pointer-events: none;
+  user-select: none;
+}
+
 .hero-content {
   position: absolute;
   bottom: 0;
