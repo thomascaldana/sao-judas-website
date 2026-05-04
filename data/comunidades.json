@@ -6,6 +6,7 @@
     "endereco": "Rua Madalena Barbosa Ferreira, 345 - Vila Lemos, Campinas - SP, 13100-486",
     "telefone": "(19) 3255-4799",
     "telefoneWhatsapp": "(19) 97114-1803",
+    "email": "judastadeu@arquidiocesecampinas.com",
     "secretaria": {
       "segQuinta": "8h às 12h | 14h às 16h",
       "sexSabado": "8h às 12h"
@@ -21,16 +22,15 @@
       "endereco": "Rua Madalena Barbosa Ferreira, 345 - Vila Lemos, Campinas - SP, 13100-486",
       "missas": [
         { "dia": "Domingo", "horario": "7h30 e 18h" },
-        { "dia": "Quinta-feira", "horario": "20h", "detalhe": "Missa e Adoração ao Santíssimo" },
-        { "dia": "Todo dia 28", "horario": "20h", "detalhe": "Se cair no sábado: 19h / domingo: 18h" }
+        { "dia": "Quinta-feira", "horario": "20h" },
+        { "dia": "Todo dia 28", "horario": "20h", "detalhe": "Missa do Padroeiro (exceto domingo)" }
       ],
       "atividades": [
         { "nome": "Terço das Mulheres", "dia": "Segunda-feira", "horario": "19h30" },
-        { "nome": "Terço dos Homens", "dia": "Terça-feira", "horario": "19h30" },
         { "nome": "Catequese", "dia": "Sábado", "horario": "8h" },
         { "nome": "Crisma", "dia": "Sábado", "horario": "9h30" }
       ],
-      "descricao": "Sede da paróquia e Igreja Matriz. Religiosos Agostinianos da Assunção.",
+      "descricao": "Sede da paróquia e Igreja Matriz, conduzida pelos Religiosos Agostinianos da Assunção. Centro das celebrações e atividades pastorais da paróquia.",
       "padroeiro": "São Judas Tadeu",
       "diaDoPadroeiro": "28 de Outubro",
       "contato": "(19) 3255-4799",
@@ -38,157 +38,170 @@
     },
     {
       "id": 2,
-      "nome": "Nossa Senhora Aparecida",
-      "foto": "https://images.unsplash.com/photo-1745433153563-41d820d51f88?w=200&h=200&fit=crop",
-      "endereco": "Rua das Flores, 250 - Jardim Esperança",
+      "nome": "Rainha da Paz",
+      "foto": "https://images.unsplash.com/photo-1569626919645-78bbaec3f137?w=200&h=200&fit=crop",
+      "endereco": "Rua Vergílio Vescovi, 456 - Jardim Tamoio, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "10:00" },
-        { "dia": "Sábado", "horario": "19:00" }
+        { "dia": "Sábado", "horario": "18h" },
+        { "dia": "Todo dia 25", "horario": "20h", "detalhe": "Missa da Padroeira" }
       ],
-      "descricao": "Comunidade dedicada à padroeira do Brasil, com forte devoção mariana.",
-      "padroeiro": "Nossa Senhora Aparecida",
-      "diaDoPadroeiro": "12 de Outubro",
-      "contato": "(11) 3333-5555"
+      "descricao": "Comunidade dedicada a Nossa Senhora Rainha da Paz, com forte devoção mariana e celebração mensal da padroeira.",
+      "padroeiro": "Nossa Senhora Rainha da Paz",
+      "diaDoPadroeiro": "9 de Julho"
     },
     {
       "id": 3,
-      "nome": "Santo Antônio",
-      "foto": "https://images.unsplash.com/photo-1744225330545-106e71178ae2?w=200&h=200&fit=crop",
-      "endereco": "Av. Brasil, 780 - Vila Nova",
+      "nome": "São Lucas",
+      "foto": "https://images.unsplash.com/photo-1687885123899-1a39e12593e2?w=200&h=200&fit=crop",
+      "endereco": "Rua Dr. Manoel Rios Muraro, 225 - Vila Olímpia Maia, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "09:00" },
-        { "dia": "Quinta-feira", "horario": "19:30" }
+        { "dia": "Sábado", "horario": "19h30" },
+        { "dia": "Todo dia 18", "horario": "19h30", "detalhe": "Missa do Padroeiro" }
       ],
-      "descricao": "Comunidade acolhedora no coração da Vila Nova, com diversos grupos pastorais.",
-      "padroeiro": "Santo Antônio de Pádua",
-      "diaDoPadroeiro": "13 de Junho",
-      "contato": "(11) 3333-6666"
+      "descricao": "Comunidade sob o patrocínio de São Lucas Evangelista, padroeiro dos médicos e artistas.",
+      "padroeiro": "São Lucas Evangelista",
+      "diaDoPadroeiro": "18 de Outubro"
     },
     {
       "id": 4,
-      "nome": "São José Operário",
-      "foto": "https://images.unsplash.com/photo-1612486524727-82353144eee2?w=200&h=200&fit=crop",
-      "endereco": "Rua dos Trabalhadores, 45 - Parque Industrial",
+      "nome": "Santa Luzia",
+      "foto": "https://images.unsplash.com/photo-1645459540767-c219f2814215?w=200&h=200&fit=crop",
+      "endereco": "Rua Serra Dourada, 2431 - Jardim das Andorinhas, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "07:30 e 18:00" },
-        { "dia": "Terça-feira", "horario": "19:00" }
+        { "dia": "Sábado", "horario": "19h30" },
+        { "dia": "Todo dia 13", "horario": "20h", "detalhe": "Missa da Padroeira" }
       ],
-      "descricao": "Comunidade voltada para os trabalhadores da região, com forte pastoral social.",
-      "padroeiro": "São José Operário",
-      "diaDoPadroeiro": "1º de Maio",
-      "contato": "(11) 3333-7777"
+      "descricao": "Comunidade com tradicional devoção a Santa Luzia, padroeira dos olhos e protetora da visão.",
+      "padroeiro": "Santa Luzia",
+      "diaDoPadroeiro": "13 de Dezembro"
     },
     {
       "id": 5,
-      "nome": "Santa Terezinha",
-      "foto": "https://images.unsplash.com/photo-1645459540767-c219f2814215?w=200&h=200&fit=crop",
-      "endereco": "Rua das Rosas, 320 - Jardim Santa Tereza",
+      "nome": "São Francisco de Assis",
+      "foto": "https://images.unsplash.com/photo-1712893904276-d4a79c5ca31a?w=200&h=200&fit=crop",
+      "endereco": "Av. das Andorinhas, 476 - Jardim das Andorinhas, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "10:30" },
-        { "dia": "Quarta-feira", "horario": "19:00" }
+        { "dia": "Sábado", "horario": "18h" }
       ],
-      "descricao": "Comunidade com bela capela e jardins, conhecida pela pastoral da criança.",
-      "padroeiro": "Santa Terezinha do Menino Jesus",
-      "diaDoPadroeiro": "1º de Outubro",
-      "contato": "(11) 3333-8888"
+      "descricao": "Comunidade inspirada no espírito franciscano de paz, simplicidade e cuidado com toda a criação.",
+      "padroeiro": "São Francisco de Assis",
+      "diaDoPadroeiro": "4 de Outubro"
     },
     {
       "id": 6,
-      "nome": "São Sebastião",
+      "nome": "Divino Espírito Santo",
       "foto": "https://images.unsplash.com/photo-1722600522714-c1958279292a?w=200&h=200&fit=crop",
-      "endereco": "Rua dos Esportes, 90 - Vila Olímpica",
+      "endereco": "Rua Serra da Fartura, 15 - Jardim São Fernando, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "08:30 e 19:00" },
-        { "dia": "Sexta-feira", "horario": "19:30" }
+        { "dia": "Domingo", "horario": "18h" },
+        { "dia": "Primeira sexta-feira do mês", "horario": "20h" }
       ],
-      "descricao": "Comunidade vibrante com grupos de jovens e catequese para todas as idades.",
-      "padroeiro": "São Sebastião",
-      "diaDoPadroeiro": "20 de Janeiro",
-      "contato": "(11) 3333-9999"
+      "descricao": "Comunidade dedicada ao Divino Espírito Santo, vivendo os dons e frutos do Paráclito na vida pastoral.",
+      "padroeiro": "Divino Espírito Santo",
+      "diaDoPadroeiro": "Domingo de Pentecostes"
     },
     {
       "id": 7,
-      "nome": "Nossa Senhora de Fátima",
-      "foto": "https://images.unsplash.com/photo-1569626919645-78bbaec3f137?w=200&h=200&fit=crop",
-      "endereco": "Av. Portugal, 155 - Jardim Europa",
+      "nome": "Sagrado Coração de Jesus",
+      "foto": "https://images.unsplash.com/photo-1687885123899-1a39e12593e2?w=200&h=200&fit=crop",
+      "endereco": "Rua Prof. José Jorge Filho, 5 - Jardim Carlos Lourenço, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "09:30" },
-        { "dia": "Sábado", "horario": "18:00" }
+        { "dia": "Domingo", "horario": "8h" },
+        { "dia": "Primeira sexta-feira do mês", "horario": "20h" }
       ],
-      "descricao": "Comunidade com forte tradição nas devoções marianas e terço comunitário.",
-      "padroeiro": "Nossa Senhora de Fátima",
-      "diaDoPadroeiro": "13 de Maio",
-      "contato": "(11) 3334-1111"
+      "descricao": "Comunidade consagrada ao Sagrado Coração de Jesus, com apostolado da oração e devoção às primeiras sextas-feiras.",
+      "padroeiro": "Sagrado Coração de Jesus",
+      "diaDoPadroeiro": "Sexta-feira após Corpus Christi"
     },
     {
       "id": 8,
-      "nome": "São Francisco de Assis",
-      "foto": "https://images.unsplash.com/photo-1712893904276-d4a79c5ca31a?w=200&h=200&fit=crop",
-      "endereco": "Rua da Paz, 200 - Jardim Franciscano",
+      "nome": "São João Batista",
+      "foto": "https://images.unsplash.com/photo-1757918965291-0404583221bf?w=200&h=200&fit=crop",
+      "endereco": "Rua Alberto Soares, 345 - Jardim Nova York, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "07:00 e 17:00" },
-        { "dia": "Terça-feira", "horario": "19:30" }
+        { "dia": "Domingo", "horario": "8h" }
       ],
-      "descricao": "Comunidade ecológica com pastoral da ecologia e cuidado com a criação.",
-      "padroeiro": "São Francisco de Assis",
-      "diaDoPadroeiro": "4 de Outubro",
-      "contato": "(11) 3334-2222"
+      "descricao": "Comunidade dedicada a São João Batista, o precursor do Messias e profeta do Reino que há de vir.",
+      "padroeiro": "São João Batista",
+      "diaDoPadroeiro": "24 de Junho"
     },
     {
       "id": 9,
-      "nome": "Santa Rita de Cássia",
+      "nome": "Santa Mônica",
       "foto": "https://images.unsplash.com/photo-1624491989238-421f04e59b5e?w=200&h=200&fit=crop",
-      "endereco": "Rua das Causas Impossíveis, 77 - Jardim Milagre",
+      "endereco": "Rua 28 - Jardim Itatiaia, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "11:00" },
-        { "dia": "Quinta-feira", "horario": "19:00" }
+        { "dia": "Domingo", "horario": "10h" }
       ],
-      "descricao": "Comunidade conhecida pelas novenas e pela devoção a Santa Rita de Cássia.",
-      "padroeiro": "Santa Rita de Cássia",
-      "diaDoPadroeiro": "22 de Maio",
-      "contato": "(11) 3334-3333"
+      "descricao": "Comunidade que celebra Santa Mônica, mãe de Santo Agostinho, modelo de fé, oração e perseverança maternal.",
+      "padroeiro": "Santa Mônica",
+      "diaDoPadroeiro": "27 de Agosto"
     },
     {
       "id": 10,
-      "nome": "São Pedro",
-      "foto": "https://images.unsplash.com/photo-1757918965291-0404583221bf?w=200&h=200&fit=crop",
-      "endereco": "Rua dos Pescadores, 300 - Vila do Lago",
+      "nome": "São Lourenço",
+      "foto": "https://images.unsplash.com/photo-1744225330545-106e71178ae2?w=200&h=200&fit=crop",
+      "endereco": "Rua Baronesa Dourada, 219 - Jardim Carlos Lourenço, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "08:00 e 18:30" },
-        { "dia": "Quarta-feira", "horario": "19:00" }
+        { "dia": "Domingo", "horario": "9h30" },
+        { "dia": "Primeira sexta-feira do mês", "horario": "15h" },
+        { "dia": "Todo dia 10", "horario": "20h", "detalhe": "Missa do Padroeiro" }
       ],
-      "descricao": "Comunidade próxima ao lago, com pastoral dos pescadores e festa junina tradicional.",
-      "padroeiro": "São Pedro Apóstolo",
-      "diaDoPadroeiro": "29 de Junho",
-      "contato": "(11) 3334-4444"
+      "atividades": [
+        { "nome": "Terço dos Homens", "dia": "Terça-feira", "horario": "20h" }
+      ],
+      "descricao": "Comunidade que tem como padroeiro São Lourenço, diácono e mártir, exemplo de serviço aos pobres da Igreja.",
+      "padroeiro": "São Lourenço",
+      "diaDoPadroeiro": "10 de Agosto"
     },
     {
       "id": 11,
-      "nome": "Sagrado Coração de Jesus",
-      "foto": "https://images.unsplash.com/photo-1687885123899-1a39e12593e2?w=200&h=200&fit=crop",
-      "endereco": "Rua da Devoção, 500 - Centro Histórico",
+      "nome": "Sagrada Família",
+      "foto": "https://images.unsplash.com/photo-1612486524727-82353144eee2?w=200&h=200&fit=crop",
+      "endereco": "Rua Central, Viela 19, 381 - Jardim Paranapanema, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "10:00 e 19:30" },
-        { "dia": "Primeira sexta-feira do mês", "horario": "19:00" }
+        { "dia": "Domingo", "horario": "9h30" },
+        { "dia": "Todo dia 26", "horario": "20h", "detalhe": "Missa da Padroeira" }
       ],
-      "descricao": "Comunidade histórica com adoração ao Santíssimo e apostolado da oração.",
-      "padroeiro": "Sagrado Coração de Jesus",
-      "diaDoPadroeiro": "Sexta-feira após Corpus Christi",
-      "contato": "(11) 3334-5555"
+      "descricao": "Comunidade que tem na Sagrada Família de Nazaré - Jesus, Maria e José - o modelo da vida familiar cristã.",
+      "padroeiro": "Sagrada Família",
+      "diaDoPadroeiro": "Domingo após o Natal"
     },
     {
       "id": 12,
-      "nome": "Nossa Senhora do Rosário",
-      "foto": "https://images.unsplash.com/photo-1687459730891-47dfa3217811?w=200&h=200&fit=crop",
-      "endereco": "Praça do Rosário, 10 - Bairro Alto",
+      "nome": "Maria de Nazaré",
+      "foto": "https://images.unsplash.com/photo-1745433153563-41d820d51f88?w=200&h=200&fit=crop",
+      "endereco": "Rua Serra Dourada, 1903 - Jardim Itatiaia, Campinas - SP",
       "missas": [
-        { "dia": "Domingo", "horario": "09:00 e 17:30" },
-        { "dia": "Sábado", "horario": "19:00" }
+        { "dia": "Sábado", "horario": "19h30" }
       ],
-      "descricao": "Comunidade mariana com terço diário e grupos de oração do rosário.",
-      "padroeiro": "Nossa Senhora do Rosário",
-      "diaDoPadroeiro": "7 de Outubro",
-      "contato": "(11) 3334-6666"
+      "descricao": "Comunidade mariana inspirada no exemplo de Maria de Nazaré, a humilde serva do Senhor e Mãe da Igreja.",
+      "padroeiro": "Nossa Senhora de Nazaré",
+      "diaDoPadroeiro": "8 de Setembro"
+    },
+    {
+      "id": 13,
+      "nome": "Santo Antônio",
+      "foto": "https://images.unsplash.com/photo-1744225330545-106e71178ae2?w=200&h=200&fit=crop",
+      "endereco": "Chácara Aveiros, Campinas - SP",
+      "missas": [
+        { "dia": "Horários", "horario": "A confirmar", "detalhe": "Consulte a secretaria paroquial" }
+      ],
+      "descricao": "Comunidade dedicada a Santo Antônio de Pádua, frade franciscano, doutor da Igreja e protetor das causas perdidas.",
+      "padroeiro": "Santo Antônio de Pádua",
+      "diaDoPadroeiro": "13 de Junho"
+    },
+    {
+      "id": 14,
+      "nome": "Nossa Senhora da Assunção",
+      "foto": "https://images.unsplash.com/photo-1687459730891-47dfa3217811?w=200&h=200&fit=crop",
+      "endereco": "Jardim Santa Eudóxia, Campinas - SP",
+      "missas": [
+        { "dia": "Horários", "horario": "A confirmar", "detalhe": "Consulte a secretaria paroquial" }
+      ],
+      "descricao": "Comunidade dedicada a Nossa Senhora da Assunção, padroeira dos Religiosos Agostinianos da Assunção.",
+      "padroeiro": "Nossa Senhora da Assunção",
+      "diaDoPadroeiro": "15 de Agosto"
     }
   ]
 }
