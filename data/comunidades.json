@@ -39,7 +39,7 @@
     {
       "id": 2,
       "nome": "Rainha da Paz",
-      "foto": "https://images.unsplash.com/photo-1569626919645-78bbaec3f137?w=200&h=200&fit=crop",
+      "foto": "./assets/rainha_da_paz.png",
       "endereco": "Rua Vergílio Vescovi, 456 - Jardim Tamoio, Campinas - SP",
       "missas": [
         { "dia": "Sábado", "horario": "18h" },
@@ -52,7 +52,7 @@
     {
       "id": 3,
       "nome": "São Lucas",
-      "foto": "https://images.unsplash.com/photo-1687885123899-1a39e12593e2?w=200&h=200&fit=crop",
+      "foto": "./assets/sao_lucas.jpg",
       "endereco": "Rua Dr. Manoel Rios Muraro, 225 - Vila Olímpia Maia, Campinas - SP",
       "missas": [
         { "dia": "Sábado", "horario": "19h30" },
@@ -65,7 +65,7 @@
     {
       "id": 4,
       "nome": "Santa Luzia",
-      "foto": "https://images.unsplash.com/photo-1645459540767-c219f2814215?w=200&h=200&fit=crop",
+      "foto": "./assets/santa_luzia.png",
       "endereco": "Rua Serra Dourada, 2431 - Jardim das Andorinhas, Campinas - SP",
       "missas": [
         { "dia": "Sábado", "horario": "19h30" },
@@ -78,7 +78,7 @@
     {
       "id": 5,
       "nome": "São Francisco de Assis",
-      "foto": "https://images.unsplash.com/photo-1712893904276-d4a79c5ca31a?w=200&h=200&fit=crop",
+      "foto": "./assets/sao_francisco.jpg",
       "endereco": "Av. das Andorinhas, 476 - Jardim das Andorinhas, Campinas - SP",
       "missas": [
         { "dia": "Sábado", "horario": "18h" }
