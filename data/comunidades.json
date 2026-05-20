@@ -157,7 +157,7 @@
     {
       "id": 11,
       "nome": "Sagrada Família",
-      "foto": "https://images.unsplash.com/photo-1612486524727-82353144eee2?w=200&h=200&fit=crop",
+      "foto": "./assets/sagrada_familia.png",
       "endereco": "Rua Central, Viela 19, 381 - Jardim Paranapanema, Campinas - SP",
       "missas": [
         { "dia": "Domingo", "horario": "9h30" },
@@ -170,7 +170,7 @@
     {
       "id": 12,
       "nome": "Maria de Nazaré",
-      "foto": "https://images.unsplash.com/photo-1745433153563-41d820d51f88?w=200&h=200&fit=crop",
+      "foto": "./assets/maria_de_nazare.png",
       "endereco": "Rua Serra Dourada, 1903 - Jardim Itatiaia, Campinas - SP",
       "missas": [
         { "dia": "Sábado", "horario": "19h30" }
@@ -182,7 +182,7 @@
     {
       "id": 13,
       "nome": "Santo Antônio",
-      "foto": "https://images.unsplash.com/photo-1744225330545-106e71178ae2?w=200&h=200&fit=crop",
+      "foto": "./assets/santo_antonio.png",
       "endereco": "Chácara Aveiros, Campinas - SP",
       "missas": [
         { "dia": "Horários", "horario": "A confirmar", "detalhe": "Consulte a secretaria paroquial" }
@@ -194,7 +194,7 @@
     {
       "id": 14,
       "nome": "Nossa Senhora da Assunção",
-      "foto": "https://images.unsplash.com/photo-1687459730891-47dfa3217811?w=200&h=200&fit=crop",
+      "foto": "./assets/nossa_senhora_da_assuncao.png",
       "endereco": "Jardim Santa Eudóxia, Campinas - SP",
       "missas": [
         { "dia": "Horários", "horario": "A confirmar", "detalhe": "Consulte a secretaria paroquial" }
