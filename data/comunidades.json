@@ -90,7 +90,7 @@
     {
       "id": 6,
       "nome": "Divino Espírito Santo",
-      "foto": "https://images.unsplash.com/photo-1722600522714-c1958279292a?w=200&h=200&fit=crop",
+      "foto": "./assets/divino_espirito_santo.png",
       "endereco": "Rua Serra da Fartura, 15 - Jardim São Fernando, Campinas - SP",
       "missas": [
         { "dia": "Domingo", "horario": "18h" },
@@ -103,7 +103,7 @@
     {
       "id": 7,
       "nome": "Sagrado Coração de Jesus",
-      "foto": "https://images.unsplash.com/photo-1687885123899-1a39e12593e2?w=200&h=200&fit=crop",
+      "foto": "./assets/sagrado_coracao_de_jesus.png",
       "endereco": "Rua Prof. José Jorge Filho, 5 - Jardim Carlos Lourenço, Campinas - SP",
       "missas": [
         { "dia": "Domingo", "horario": "8h" },
@@ -116,7 +116,7 @@
     {
       "id": 8,
       "nome": "São João Batista",
-      "foto": "https://images.unsplash.com/photo-1757918965291-0404583221bf?w=200&h=200&fit=crop",
+      "foto": "./assets/sao_joao_batista.png",
       "endereco": "Rua Alberto Soares, 345 - Jardim Nova York, Campinas - SP",
       "missas": [
         { "dia": "Domingo", "horario": "8h" }
@@ -128,7 +128,7 @@
     {
       "id": 9,
       "nome": "Santa Mônica",
-      "foto": "https://images.unsplash.com/photo-1624491989238-421f04e59b5e?w=200&h=200&fit=crop",
+      "foto": "./assets/santa_monica.png",
       "endereco": "Rua 28 - Jardim Itatiaia, Campinas - SP",
       "missas": [
         { "dia": "Domingo", "horario": "10h" }
@@ -140,7 +140,7 @@
     {
       "id": 10,
       "nome": "São Lourenço",
-      "foto": "https://images.unsplash.com/photo-1744225330545-106e71178ae2?w=200&h=200&fit=crop",
+      "foto": "./assets/sao_lorenco.png",
       "endereco": "Rua Baronesa Dourada, 219 - Jardim Carlos Lourenço, Campinas - SP",
       "missas": [
         { "dia": "Domingo", "horario": "9h30" },
