@@ -148,17 +148,22 @@ input:-webkit-autofill:focus {
 .hero-logo {
   position: absolute;
   top: 16px;
-  right: 16px;
-  width: 90px;
-  height: 90px;
+  width: 72px;
+  height: 72px;
   object-fit: contain;
   z-index: 2;
-  filter:
-    drop-shadow(0 0 4px rgba(255, 255, 255, 1))
-    drop-shadow(0 0 10px rgba(255, 255, 255, 0.95))
-    drop-shadow(0 0 22px rgba(255, 255, 255, 0.7));
+  border-radius: 50%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
   pointer-events: none;
   user-select: none;
+}
+
+.hero-logo--agostinianos {
+  left: 16px;
+}
+
+.hero-logo--paroquia {
+  right: 16px;
 }
 
 .hero-content {
@@ -215,10 +220,6 @@ input:-webkit-autofill:focus {
 
 .search-section {
   padding: 16px 20px 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: var(--background);
 }
 
 .search-container {
@@ -485,6 +486,21 @@ input:-webkit-autofill:focus {
   background: var(--primary-surface);
   padding: 4px 14px;
   border-radius: 100px;
+}
+
+.schedule-instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #C13584;
+  text-decoration: none;
+}
+
+.schedule-instagram-link:hover {
+  text-decoration: underline;
 }
 
 /* ========================================

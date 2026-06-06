@@ -27,6 +27,7 @@
       ],
       "atividades": [
         { "nome": "Terço das Mulheres", "dia": "Segunda-feira", "horario": "19h30" },
+        { "nome": "Grupo de Jovens Consagrados", "dia": "A cada 15 dias", "horario": "Consulte o Instagram", "instagram": "https://www.instagram.com/gojconsagrados?igsh=ejJuNzV5dDkxZjVq" },
         { "nome": "Catequese", "dia": "Sábado", "horario": "8h" },
         { "nome": "Crisma", "dia": "Sábado", "horario": "9h30" }
       ],
@@ -148,7 +149,8 @@
         { "dia": "Todo dia 10", "horario": "20h", "detalhe": "Missa do Padroeiro" }
       ],
       "atividades": [
-        { "nome": "Terço dos Homens", "dia": "Terça-feira", "horario": "20h" }
+        { "nome": "Terço dos Homens", "dia": "Terça-feira", "horario": "20h" },
+        { "nome": "Grupo de Oração Nossa Senhora Rosa Mística", "dia": "Quarta-feira", "horario": "20h", "detalhe": "Único grupo de oração da paróquia" }
       ],
       "descricao": "Comunidade que tem como padroeiro São Lourenço, diácono e mártir, exemplo de serviço aos pobres da Igreja.",
       "padroeiro": "São Lourenço",
