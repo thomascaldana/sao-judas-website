@@ -19,6 +19,7 @@
   const communityActivities = document.getElementById('communityActivities');
   const secretaryCard = document.getElementById('secretaryCard');
   const communitySecretary = document.getElementById('communitySecretary');
+  const patronDayCard = document.getElementById('patronDayCard');
   const communityPatronDay = document.getElementById('communityPatronDay');
   const communityDescription = document.getElementById('communityDescription');
   const communityContact = document.getElementById('communityContact');
@@ -129,7 +130,11 @@
       `;
     }
 
-    communityPatronDay.textContent = community.diaDoPadroeiro;
+    if (community.diaDoPadroeiro) {
+      communityPatronDay.textContent = community.diaDoPadroeiro;
+    } else {
+      patronDayCard.classList.add('hidden');
+    }
     communityDescription.textContent = community.descricao;
 
     const whatsappNum = community.whatsapp || paroquia.whatsapp;

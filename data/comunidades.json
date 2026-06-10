@@ -48,7 +48,7 @@
       ],
       "descricao": "Comunidade dedicada a Nossa Senhora Rainha da Paz, com forte devoção mariana e celebração mensal da padroeira.",
       "padroeiro": "Nossa Senhora Rainha da Paz",
-      "diaDoPadroeiro": "9 de Julho"
+      "diaDoPadroeiro": "25 de Junho"
     },
     {
       "id": 3,
@@ -98,8 +98,7 @@
         { "dia": "Primeira sexta-feira do mês", "horario": "20h" }
       ],
       "descricao": "Comunidade dedicada ao Divino Espírito Santo, vivendo os dons e frutos do Paráclito na vida pastoral.",
-      "padroeiro": "Divino Espírito Santo",
-      "diaDoPadroeiro": "Domingo de Pentecostes"
+      "padroeiro": "Divino Espírito Santo"
     },
     {
       "id": 7,
@@ -111,8 +110,7 @@
         { "dia": "Primeira sexta-feira do mês", "horario": "20h" }
       ],
       "descricao": "Comunidade consagrada ao Sagrado Coração de Jesus, com apostolado da oração e devoção às primeiras sextas-feiras.",
-      "padroeiro": "Sagrado Coração de Jesus",
-      "diaDoPadroeiro": "Sexta-feira após Corpus Christi"
+      "padroeiro": "Sagrado Coração de Jesus"
     },
     {
       "id": 8,
@@ -167,7 +165,7 @@
       ],
       "descricao": "Comunidade que tem na Sagrada Família de Nazaré - Jesus, Maria e José - o modelo da vida familiar cristã.",
       "padroeiro": "Sagrada Família",
-      "diaDoPadroeiro": "Domingo após o Natal"
+      "diaDoPadroeiro": "26 de Dezembro"
     },
     {
       "id": 12,
@@ -179,7 +177,7 @@
       ],
       "descricao": "Comunidade mariana inspirada no exemplo de Maria de Nazaré, a humilde serva do Senhor e Mãe da Igreja.",
       "padroeiro": "Nossa Senhora de Nazaré",
-      "diaDoPadroeiro": "30 de Maio"
+      "diaDoPadroeiro": "31 de Maio"
     },
     {
       "id": 13,
